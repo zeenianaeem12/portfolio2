@@ -1,0 +1,168 @@
+body {
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; /* Adjust the value as needed */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh; 
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 50px; /* Adjust spacing between sections */
+}
+
+.about-me-section {
+  text-align: center;
+}
+
+.wrapper {
+  margin-bottom: 20px; /* Adjust spacing between image/text and next section */
+}
+
+.topnav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  background-color: #fcf5f5;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: rgb(139, 81, 225);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.topnav a#sign-up {
+  border-radius: 20px; /* Adjust the value as needed */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(139, 81, 225);
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Modify img styling to exclude topnav */
+.wrapper img {
+  border-radius: 50%;
+  width: 320px; /* Adjust the width as needed */
+  height: 320px; /* Adjust the height as needed */
+}
+
+/* Add a new class to the image in the topnav and apply different styling */
+.topnav img {
+  display: none; /* Hide the image in the topnav */
+}
+
+.button-group {
+  margin: 25px 0; /* Adjust top margin */
+  text-align: center; /* Center align buttons */
+}
+
+.button-group .button {
+  border-color: red;
+  color: white;
+  background-color: #333;
+  padding: 12px 25px;
+  margin: 5px 10px; /* Adjust horizontal margin */
+  border-radius: 30px;
+  border: 2px solid white;
+  box-shadow: 0 10px 10px -8px rgba(0 0 0 / 78%);
+  width: 200px; /* Adjust the width as needed */
+}
+
+.button-group .button.active {
+  border-color: rgb(111, 0, 255);
+}
+
+.fa-brands {
+  color: purple;
+  font-size: 30px;
+  padding-right: 6px;
+}
+
+.fa-brands:hover {
+  color: rgb(111, 0, 255);
+
+}
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Reduce top margin */
+  }
+  
+  .socials a {
+    display: inline-block;
+    margin: 0 8px; /* Adjust spacing between social media icons */
+    color: purple; /* Color of the icons */
+    font-size: 40px; /* Increase font size of icons */
+    transition: color 0.3s ease; /* Smooth transition effect for color change */
+  }
+  
+  .socials a:hover {
+    color: #666; /* Color change on hover */
+  }
+
+
+img {
+  border-radius: 50%;
+  width: 320px; /* Adjust the width as needed */
+  height: 320px; /* Adjust the height as needed */
+}
+
+/* Styling for the first to-do list image */
+#todolist1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 0; /* Override border-radius */
+}
+
+/* Styling for the second to-do list image */
+#todolist2 {
+   width: 300px;
+  height: 300px;
+  border-radius: 0; /* Override border-radius */
+}
+
+/* Additional styling for the to-do list container */
+.todolist-container {
+  width: 300px;
+  height: 300px;
+}
+
+.loginbox {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 70%; /* Adjust the width as needed */
+  max-width: 400px; /* Adjust the max-width as needed */
+  background-color: #f9f9f9; /* Add background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
